@@ -15,8 +15,8 @@ on:
       #- master
     paths:
       - 'opx86.config'
-#  schedule:
-#    - cron: 0 8 * * 5
+  schedule:
+    - cron: 0 3 * * *
   watch:
     types: [started]
 
