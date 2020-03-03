@@ -16,8 +16,8 @@ on:
     paths:
       - 'pw.config'
       - 'pw.sh'
-#  schedule:
-#    - cron: 0 8 * * 5
+  schedule:
+    - cron: 0 8 * * *
   watch:
     types: [started]
 
